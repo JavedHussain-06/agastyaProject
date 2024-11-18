@@ -25,7 +25,7 @@ const Products = () => {
           {filteredProducts.map((product) => (
             <div
               key={product.id}
-              className={`p-4 border shadow-inner hover:shadow-lg rounded-md transition-shadow duration-300 `}
+              className={`p-4 border shadow-inner hover:shadow-lg rounded-md transition-shadow duration-300 bg-white `}
             >
               <h2 className="font-bold">{product.name}</h2>
               <p>PLU: {product.plu}</p>
